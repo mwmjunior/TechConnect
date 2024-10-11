@@ -1,0 +1,128 @@
+{
+  "posts": [
+    {
+      "id": "7f04",
+      "content": "Meu carro novo!!!!",
+      "postImage": "/uploads/1728044401494.jpg",
+      "hashtags": "",
+      "userId": "",
+      "name": "Nome do Autor",
+      "username": "autor_username",
+      "shares": 1,
+      "likes": 3
+    },
+    {
+      "id": "129c",
+      "content": "Férias!!!!!",
+      "postImage": "/uploads/1728474479704.webp",
+      "hashtags": ""
+    },
+    {
+      "id": "e1e2",
+      "content": "xgfgdfgdfgdfg",
+      "postImage": "/uploads/1728474999321.png",
+      "hashtags": "",
+      "user": "Usuário Atual",
+      "likes": 1,
+      "name": "teste",
+      "username": "teste"
+    },
+    {
+      "id": "c46c",
+      "content": "Meu carro novo!!!!",
+      "postImage": "/uploads/1728475674544.jpg",
+      "hashtags": ""
+    },
+    {
+      "id": "8cd6",
+      "content": "Teste de postagem",
+      "postImage": "/uploads/1728386935458.png",
+      "hashtags": "",
+      "userId": "125323194"
+    },
+    {
+      "id": "e6b6",
+      "content": "Testando mais uma vez",
+      "postImage": "/uploads/1728415031141.png",
+      "hashtags": "",
+      "userId": "125310213"
+    },
+    {
+      "id": "4342",
+      "content": "123",
+      "postImage": "/uploads/1728422699212.jpg",
+      "hashtags": ""
+    },
+    {
+      "id": "492a",
+      "content": "teste andra",
+      "postImage": "/uploads/1728424368173.jpg",
+      "hashtags": "",
+      "likes": 6,
+      "name": "",
+      "username": ""
+    },
+    {
+      "id": "c88d",
+      "content": "teste salvando userId",
+      "postImage": "/uploads/1728425998543.jpg",
+      "hashtags": ""
+    },
+    {
+      "id": "1356",
+      "content": "teste2 salvando userId",
+      "postImage": "/uploads/1728427420273.jpg",
+      "hashtags": "",
+      "userId": "76997fca-3a57-43cc-b38e-fd020c5698eb"
+    },
+    {
+      "id": "665f",
+      "content": "post jose",
+      "postImage": "/uploads/1728439957801.jpg",
+      "hashtags": "",
+      "userId": ""
+    },
+    {
+      "id": "3bf3",
+      "content": "teste1",
+      "postImage": "/uploads/1728480621793.jpg",
+      "hashtags": "",
+      "userId": ""
+    },
+    {
+      "id": "0850",
+      "content": "postando yuri",
+      "postImage": "/uploads/1728508532262.jpg",
+      "hashtags": "",
+      "userId": ""
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 125323194,
+      "login": "Lucca-gOn",
+      "nameGitHub": "Lucas Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/125323194?v=4",
+      "email": "lucas.gon.oliv@gmail.com",
+      "created_at": "2024-10-09T13:04:07.345Z"
+    },
+    {
+      "id": "7d557c70-f156-4187-8224-656ed9919c28",
+      "username": "lucas",
+      "email": "lucasoliveira@gmail.com",
+      "name": "Lucas Oliveira",
+      "password": "1234",
+      "created_at": "2024-10-09T13:06:08.733Z"
+    },
+    {
+      "id": "7535c8b8-45df-4341-a870-9b0d9756a156",
+      "username": "yuri",
+      "email": "yuri@email.com",
+      "name": "yuri",
+      "password": "123",
+      "created_at": "2024-10-09T18:38:45.276Z",
+      "avatar_url": "/uploads/1728480621793.jpg"
+    }
+  ],
+  "uploads": []
+}

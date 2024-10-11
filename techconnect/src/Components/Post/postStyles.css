@@ -1,0 +1,144 @@
+/* Post.css */
+
+:root {
+  --modal-background-color: #6B4DE6; /* Cor padrão inicial */
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  width: 405px;
+  height: auto;
+  max-height: 587px;
+  background-color: var(--modal-background-color); /* Usando a variável */
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-container {
+  display: flex; /* Usar flexbox para alinhar os itens lado a lado */
+  margin-top: 10px; /* Espaço acima do container do input */
+}
+
+.message-input {
+  width: 288px;
+  height: 55px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.sent-button {
+  width: 55px; /* Definindo a largura do botão */
+  height: 55px; /* Definindo a altura do botão */
+  background-color: transparent; /* Fundo transparente */
+  color: white; /* Cor do texto (ou ícone, se houver) */
+  border: 1px solid #FFFFFF; /* Borda branca */
+  border-radius: 10px; /* Raio de borda */
+  cursor: pointer;
+  margin-left: 22px; /* Distância de 22px do input */
+  display: flex; /* Usar flexbox para centralizar o conteúdo do botão */
+  align-items: center; /* Centralizar verticalmente */
+  justify-content: center; /* Centralizar horizontalmente */
+}
+
+/* Botão de fechar */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(30, 30, 30, 0.7); /* Fundo escurecido e semi-transparente */
+  color: var(--modal-background-color); /* Usando a mesma variável do background */
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+/* Estilos da imagem de perfil e do nome do usuário */
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 20px; 
+}
+
+.profile-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 29px;
+}
+
+.profile-name {
+  font-size: 16px;
+  color: #1E1E1E;
+  font-weight: bold;
+}
+
+
+
+/* Estilos para a área de mensagens */
+.message-area {
+  width: 365px;
+  height: 402px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;     /*  Adiciona espaço entre as mensagens. */
+}
+
+/* Estilo para mensagens */
+.message {
+  width: 248px;
+  height: 55px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #1E1E1E;
+}
+
+/* Mensagens do usuário atual (lado direito) */
+.current-user {
+  background-color: #e0e0e0;
+  color: #1E1E1E;
+  align-self: flex-end;
+}
+
+/* Mensagens de outros usuários (lado esquerdo) */
+.other-user {
+  background-color: #e0e0e0;
+  color: #1E1E1E;
+  align-self: flex-start;
+}
+
+
+
+

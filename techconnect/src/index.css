@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Comfortaa:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Baloo';
+  src: url('/src/Assets/Font/Baloo/Baloo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Ocultar a barra de rolagem para navegadores WebKit (Chrome, Safari) */
+.overflow-y-auto::-webkit-scrollbar {
+    display: none; /* Oculta a barra de rolagem */
+  }
+  
+  /* Ocultar a barra de rolagem para navegadores Firefox */
+  .overflow-y-auto {
+    scrollbar-width: none; /* Para Firefox */
+  }
+  
+  /* Para outros navegadores, se necessário */
+  .overflow-y-auto::-moz-scrollbar {
+    display: none; /* Oculta a barra de rolagem */
+  }
+
+  /* Ocultar a barra de rolagem, mas permitir rolagem */
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Safari e Chrome */
+}
+
+
